@@ -1,0 +1,18 @@
+<?php
+defined('BASEPATH') OR exit('No direct script access allowed');
+
+$autoload['packages'] = array();
+
+// $autoload['libraries'] = array('database', 'session', 'upload', 'pagination', 'MobileDetect');
+
+$autoload['libraries'] = array('database','session','upload', 'pagination');
+
+$autoload['drivers'] = array();
+
+$autoload['helper'] = array('url','form', 'html', 'string', 'tanggal_helper');
+
+$autoload['config'] = array();
+
+$autoload['language'] = array();
+
+$autoload['model'] = array();
