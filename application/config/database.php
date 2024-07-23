@@ -6,10 +6,10 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'localhost',
-	'username' => 'root',
-	'password' => 'root',
-	'database' => 'db_pesan_makanan',
+	'hostname' => '103.56.204.72',
+	'username' => 'prydsyxy_pesanmakanapp',
+	'password' => 'pesanmakanapp',
+	'database' => 'prydsyxy_pesanmakanapp',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
